@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #d6e2f0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 250px;
+    height: 450px;}
+.content{
+    text-align: center;
+    max-width: 350px;
+}
+.content h2{
+    max-width: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.content p{
+    max-width: 260px;
+    margin-top: 20px;
+
+}
+.image{
+    font-size: 10px;
+}
+.image img{
+    width: 100%;
+    display: block;
+    
+}
